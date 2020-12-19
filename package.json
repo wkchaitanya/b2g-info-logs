@@ -1,0 +1,36 @@
+{
+  "name": "b2g-info-logs",
+  "version": "1.0.0",
+  "description": "adb b2g memory profiling and logs collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkchaitanya/b2g-infog-logs.git"
+  },
+  "keywords": [
+    "adb",
+    "b2g",
+    "b2g-info",
+    "memory-profiling",
+    "logs"
+  ],
+  "author": "wkchaitanya <wkchaitanya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wkchaitanya/b2g-infog-logs/issues"
+  },
+  "homepage": "https://github.com/wkchaitanya/b2g-infog-logs#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chalk-table": "^1.0.2",
+    "exceljs": "^4.2.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "mocha": "1.18.x",
+    "should": "3.2.x"
+  }
+}
