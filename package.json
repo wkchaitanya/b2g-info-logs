@@ -23,6 +23,9 @@
     "url": "https://github.com/wkchaitanya/b2g-infog-logs/issues"
   },
   "homepage": "https://github.com/wkchaitanya/b2g-infog-logs#readme",
+  "bin": {
+    "b2g-info-logs": "index.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "chalk-table": "^1.0.2",
@@ -30,7 +33,6 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "mocha": "1.18.x",
-    "should": "3.2.x"
+    "mocha": "^8.2.1"
   }
 }
