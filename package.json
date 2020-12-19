@@ -1,6 +1,6 @@
 {
   "name": "b2g-info-logs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "adb b2g memory profiling and logs collection",
   "main": "index.js",
   "scripts": {

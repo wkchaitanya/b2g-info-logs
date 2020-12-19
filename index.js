@@ -161,7 +161,7 @@ const generateLogs = () => {
       pss: `${hours}H:${minutes}M:${seconds}S`
     });
   });
-  return workbook.xlsx.writeFile('./logs/b2g_logs.xls');
+  return workbook.xlsx.writeFile('b2g_logs.xls');
 };
 
 const collectLogs = async () => {
