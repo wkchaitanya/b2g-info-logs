@@ -166,7 +166,7 @@ const generateLogs = () => {
 
 const collectLogs = async () => {
   try {
-    const device = await exec('adb devices -l | grep "device usb:" ');
+    const device = await exec('adb devices -l | findstr "device usb:" ');
     const detail = device.stdout
       .replace('\r', '')
       .split(' ')
